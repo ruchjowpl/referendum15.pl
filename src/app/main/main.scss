@@ -2,23 +2,83 @@
   min-height: 450px;
   background-image: url('../assets/images/bg-header-people.png');
   background-size: cover;
+  background-position: center bottom;
+  .head {
+    margin: 15px 0;
+  }
   .call-to-action {
     h1 {
       text-align: center;
+      font-size: 55pt;
+      font-weight: 700;
+      color: #ed1c24;
+      margin-top: 90px;
+      text-shadow: 0 0 10px #fff;
     }
   }
 }
 
-.benefints {
+.benefits {
+  padding: 40px 0; 
+  h2 {
+    font-size: 22pt;
+    margin: 0px 0 20px;
+  }
+  .symbols {
+    img {
+      margin: 25px;
+    }
+	.headline {
+      font-size: 14pt;
+      font-weight: 300;
+      line-height: 19pt;
+	}
+  }
 	
 }
 
 .how-to-vote {
-	background-color: #e6e6e6;
+  padding: 60px 0;
+  background-color: #e6e6e6;
+  h2 {
+  	margin: 0 0 50px;
+  	padding: 0;
+  }
+  .intro {
+    margin: 0 0 15px 0;
+  }
+  ol {
+    li {
+      margin: 15px 0;
+      font-size: 12.5pt;
+      font-weight: 300;
+    }
+  }
 }
 
 .support {
+	padding: 60px 0;
     min-height: 280px;
 	background-image: url('../assets/images/bg-footer-people.png');
 	background-size: cover;
+	.btn {
+		background-color: #df0024;
+		min-width: 240px;
+		font-size: 17pt;
+		font-weight: 300 !important;
+		padding: 20px;
+		color: white;
+	}
+	.law-notice {
+	  margin-top: 40px;
+	  font-size: 13pt;
+	  font-weight: 300;
+	  color: #fff;
+	  line-height: 17pt;
+	  a {
+	    color: #fff;
+	    font-weight: bold;
+	    box-radius: 0;
+	  }
+	}
 }
