@@ -4,7 +4,9 @@
   background-size: cover;
   background-position: center bottom;
   .head {
-    margin: 15px 0;
+    .logo, .ruchjow {
+    	margin: 15px 0;
+    }
   }
   .call-to-action {
     h1 {
@@ -13,6 +15,7 @@
       font-weight: 700;
       color: #ed1c24;
       margin-top: 90px;
+      margin-bottom: 70px;
       text-shadow: 0 0 10px #fff;
     }
   }
@@ -54,6 +57,9 @@
       font-weight: 300;
     }
   }
+  img {
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+  }
 }
 
 .support {
@@ -62,12 +68,14 @@
 	background-image: url('../assets/images/bg-footer-people.png');
 	background-size: cover;
 	.btn {
+	    margin: 10px 0;
 		background-color: #df0024;
 		min-width: 240px;
 		font-size: 17pt;
 		font-weight: 300 !important;
 		padding: 20px;
 		color: white;
+		border-radius: 0 !important;
 	}
 	.law-notice {
 	  margin-top: 40px;
